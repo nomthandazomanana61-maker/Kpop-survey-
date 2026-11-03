@@ -1,0 +1,111 @@
+<!DOCTYPE html>  <html lang="en">  
+  <head>  
+    <meta charset="UTF-8" />  
+    <title>Survey Form</title>  
+  </head>    <body>  
+<h1 id="title" >All about Kpop </h1>  
+<p id="description"> Tell us about your love for Kpop</p>  
+<form id="survey-form" >  
+<label id="name-label" for ="name" >Your name</label>  
+ <input  
+  id="name"   
+  type="text"   
+  placeholder=" Enter your name"   
+required   
+ >  
+<br><br>   
+<label id="email-label" for="email" >Email address</label>  
+<input   
+  id="email"  
+  type="email"   
+  placeholder ="Enter your email"   
+required   
+>  
+<br><br>  
+<label id="number-label" for="number" >How old are you </label>  
+<input  
+ id="number"   
+ type="number"   
+ min="10"  
+ max="100"  
+placeholder= "Enter your age"   
+>  
+<br>  
+<!--dropdown-->   
+<p> what do you identify as in the fandom world</p>  
+<label for="dropdown" >what's your favourite fandom group</label>  
+<select id="dropdown" >  
+<option >select your fandom </option >  
+<option>Army</option>  
+<option>Stay</option>  
+<option>Atiny</option>  
+<option>Blinks</option>  
+<option>Mult-stan</option>
+</select>  
+<br>  
+<!--radio-->   
+<p>How long have you been a fan?</p>  
+<label for="less than one">Less than a year</label>  
+<input   
+ id="less than one "   
+ type="radio"   
+ value="less than one"  
+ name="fan duration"   
+>  
+<br>  
+<label for="3 or more">1-3years</label>  
+<input  
+ id="3 or more"  
+ type="radio"  
+ value="3 or more"  
+  name="fan duration"  
+>   
+<br>  
+<label for ="more than 3">More than 3 years </label>  
+<input  
+ id="more than 3 "   
+type="radio"   
+ value="more than 3"  
+  name="fan duration"   
+>  
+<br>
+<! --checkbox-->
+<p>What do you enjoy the most about Kpop?</p>
+<label for="music">Music</label>
+<input
+ id="music" 
+ type="checkbox" 
+ name="interest" 
+ value="music" 
+>
+<br>
+<label for="dance">Dance and cheography</label>
+<input
+ id="dance" 
+ type="checkbox" 
+ name="interest" 
+ value="dance"
+>
+<br>
+<label for="show">Variety shows and interview</label>
+<input 
+id="show" 
+type="checkbox" 
+name="intrest" 
+value="show" 
+>
+<br><br>
+<! -- textarea - - >
+<label for="comments">What's your favourite kpop memory?</label>
+<textarea
+id="comments"
+name="comments" 
+placeholder="Share your fave memory" 
+>
+</textarea>
+<! -- submit-->
+<br>
+<button type="submit" id="submit">Submit suvery</button>
+</form>  
+</body> 
+  </html>
